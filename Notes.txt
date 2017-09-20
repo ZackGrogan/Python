@@ -1,10 +1,4 @@
-
-
-
-
-
-
-
+import os
 with with io.FileIO*(str(Ln), "w"):
         FN = input('Enter your first name:  ')
         LN = input('Enter your first name:  ')
