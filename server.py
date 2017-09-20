@@ -12,4 +12,7 @@ while True:
   print'Receiving connection from', ip
   rec = c.recv(1000)
   While(rec)
-  print"Receiving File from", ip
+    print"Receiving File from", ip
+    f.write(rec)
+    rec = c.recv(1000)
+  c.close()
