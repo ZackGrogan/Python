@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+with with io.FileIO*(str(Ln), "w"):
+        FN = input('Enter your first name:  ')
+        LN = input('Enter your first name:  ')
+        AD = input('Enter your first name:  ')
+        UN = input('Enter your first name:  ')
+        PS = input('Enter Your Password:    ')
+    out.write('{}\n{}\n{}\n{}\n'.format(LN,AD,UN,PS))
+
+
+
+
+#this is for collecting user data :D having fun
+#Now I have to figure away to export this in to a text file in its seperate lines
+#i Also want to figure a way 
