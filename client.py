@@ -2,8 +2,7 @@ import socket
 import os
 
 
-
-def Connection
+#this is the server.py socket code i need to change it so it will send rather then recieve
 soc = socket.socket()
 host = socket.gethostname()
 port 1000
